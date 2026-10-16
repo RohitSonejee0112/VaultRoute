@@ -198,14 +198,5 @@ The generated `.xlsx` report contains 4 production tabs:
 
 ---
 
-## 💼 Interview Talking Points (STAR Method)
-
-- **Situation:** Enterprise financial document distribution requires strict SLA adherence, zero duplicate deliveries, and mathematically unalterable audit trails across asynchronous partner teams.
-- **Task:** Architect a mission-critical distribution engine capable of handling partner outages gracefully while automatically generating executive operational reports.
-- **Action:** Engineered VaultRoute using TypeScript (Strict), Zod contracts, and a formal Finite State Machine. Implemented Full Jitter exponential backoff, isolated Circuit Breakers, HMAC-SHA256 non-repudiation, ABAC governance, and a blockchain-style hash-chained audit ledger.
-- **Result:** Prevented cascade failures under an 85% simulated partner outage, reduced redundant calls via deterministic idempotency keys, verified 100% ledger immutability, and programmatically compiled multi-sheet Excel dashboards with tail-latency percentiles ($p50/p95/p99$).
-
----
-
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
