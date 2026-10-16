@@ -1,0 +1,20 @@
+{
+  "system": {
+    "name": "Operational Reporting & Document Distribution System",
+    "version": "1.0.0",
+    "environment": "simulation"
+  },
+  "operations": {
+    "maxRetries": 3,
+    "retryBackoffBaseMs": 150,
+    "slaThresholdsSec": {
+      "P1": 1.5,
+      "P2": 3.0,
+      "P3": 6.0
+    }
+  },
+  "reporting": {
+    "outputDirectory": "./data/reports",
+    "filenamePrefix": "Operational_Report_"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "WEALTH_MGMT_CORE": {
+    "name": "Wealth Management Product Team",
+    "minLatencyMs": 40,
+    "maxLatencyMs": 120,
+    "failureRate": 0.02
+  },
+  "LEGAL_COMPLIANCE": {
+    "name": "Legal & Regulatory Partner Service",
+    "minLatencyMs": 60,
+    "maxLatencyMs": 180,
+    "failureRate": 0.04
+  },
+  "CLIENT_PORTAL_GATEWAY": {
+    "name": "Secure Web Client Portal",
+    "minLatencyMs": 30,
+    "maxLatencyMs": 90,
+    "failureRate": 0.01
+  },
+  "UNDERWRITING_PARTNER": {
+    "name": "Underwriting Document Exchange",
+    "minLatencyMs": 80,
+    "maxLatencyMs": 250,
+    "failureRate": 0.08
+  }
+}

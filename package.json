@@ -1,0 +1,39 @@
+{
+  "name": "vaultroute",
+  "version": "2.0.0",
+  "description": "VaultRoute - Enterprise Mission-Critical Document Distribution Engine & Operational Reporting Dashboard",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node ./node_modules/typescript/lib/tsc.js",
+    "start": "tsx src/index.ts",
+    "simulate": "tsx src/index.ts",
+    "simulate:nominal": "tsx src/index.ts --profile=nominal-load --seed=101",
+    "simulate:degradation": "tsx src/index.ts --profile=partner-degradation --seed=202",
+    "simulate:blackswan": "tsx src/index.ts --profile=black-swan-outage --seed=999",
+    "test": "tsx test/enterprise.test.ts"
+  },
+  "keywords": [
+    "document-delivery",
+    "operational-reporting",
+    "finite-state-machine",
+    "hmac-sha256",
+    "abac",
+    "circuit-breaker",
+    "dead-letter-queue",
+    "hash-chain",
+    "exceljs",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}

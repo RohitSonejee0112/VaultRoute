@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  ordds-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ordds-distribution-engine
+    environment:
+      - NODE_ENV=production
+      - SIMULATION_PROFILE=nominal-load
+      - PRNG_SEED=42
+    volumes:
+      - ./data/reports:/app/data/reports
+    restart: unless-stopped
+
+  # Optional decoupled streaming broker for scaled deployments
+  redis-broker:
+    image: redis:7-alpine
+    container_name: ordds-redis-broker
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
