@@ -1,6 +1,6 @@
 # VaultRoute
 
-[![CI Pipeline](https://github.com/RohitSonejee0112/VaultRoute/actions/workflows/ci.yml/badge.svg)](https://github.com/RohitSonejee0112/VaultRoute/actions/workflows/ci.yml)
+[![CI Pipeline](https://github.com/RohitSonejee0112/VaultRoute/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/RohitSonejee0112/VaultRoute/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3%20(Strict)-blue.svg)](https://www.typescriptlang.org/)
 [![Zod](https://img.shields.io/badge/Validation-Zod%20Runtime-3E67B1.svg)](https://zod.dev/)
 [![Excel Automation](https://img.shields.io/badge/Reporting-Microsoft%20Excel%20(ExcelJS)-217346.svg)](https://github.com/exceljs/exceljs)
